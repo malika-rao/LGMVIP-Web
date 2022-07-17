@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="website">Website</label><br>
+        <input type="text" id="website" name="website"><br>
+        <label for="image link">Image link</label><br>
+        <input type="link" id="image link" name="image link">
+      </form> 
+      <p>Gender</p>
+      <form>
+        <input type="radio" id="Male" name="Gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="Female" name="Gender" value="female">
+        <label for="female">Female</label><br>
+      </form> 
+      <p>Skills</p>
+      <form>
+        <input type="checkbox" id="language1" name="language1" value="java">
+        <label for="language1"> Java</label><br>
+        <input type="checkbox" id="language2" name="language2" value="html">
+        <label for="language2"> Html</label><br>
+        <input type="checkbox" id="language3" name="language3" value="css">
+        <label for="language3"> Css</label><br>
+      </form> 
+      <form action="/action_page.php">
+        <input type="enroll student" value="Enroll Student">
+        <input type="clear" value="Clear">
+      </form> 
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./file.js"></script>
+</head>
+
+<body>
+    <div class="ff">
+        <div class="form">
+            <table border="4" id="show">
+                <thead>
+                    <h2>Enrolled Students </h2>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Contact</th>
+                        <th>Gender</th>
+                        <th>Skills</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="form" id="colr">
+            
+                <div class="container">
+                    <h1>Student Enrollment Form</h1>
+    
+                    <hr>
+    
+                    <label for="email"><b>Name</b></label>
+                    <input type="text" placeholder="Your Name" name="fstname" id="fname" required>
+    
+                    <label for="email"><b>Age</b></label>
+                    <input type="text" placeholder="Your Age" name="age" id="age" required>
+    
+                    <label for="email"><b>Contact</b></label>
+                    <input type="text" placeholder="Your Contact no" name="no" id="no" required>
+                    
+                    <p><b>Gender</b></p>
+                    <label for="male">Male</label>
+                    <input type="radio" name="Gender" id="male" value="male" >
+                    
+                    <label for="female">Female</label>
+                    <input type="radio"  name="Gender" id="Female" value="female">
+                  
+                    <p><b>Skills</b></p>
+                    <input type="checkbox" id="language1" name="language1" value="java">    
+                    <label for="language1"> Java</label>
+
+                    <input type="checkbox" id="language2" name="language2" value="html">
+                    <label for="language2"> Html</label>
+
+                    <input type="checkbox" id="language3" name="language3" value="css">
+                    <label for="language3"> Css</label>
+    
+                    <hr>
+    
+    
+                    <button class="registerbtn" onclick="AddRow()" id="btn"><b>Register</b></button>
+                </div>
+    
+            
+        </div>
+        
+    
+    </div>
+    
+</body>
+
+
+</html>
